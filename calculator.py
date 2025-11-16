@@ -1,4 +1,4 @@
-https://github.com/sair9991/lab11---SR---DD.git
+# https://github.com/sair9991/lab11---SR---DD.git
 
 import math
 
