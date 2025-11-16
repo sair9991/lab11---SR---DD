@@ -28,15 +28,15 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(square_root(0), 0.0)
         with self.assertRaises(ValueError):
             square_root(-4)
-         def test_add(self):
-         self.assertEqual(add(5, 8), 13)
-         self.assertEqual(add(-2, -7), -9)
-         self.assertEqual(add(0,0), 0)
+    def test_add(self):
+        self.assertEqual(add(5, 8), 13)
+        self.assertEqual(add(-2, -7), -9)
+        self.assertEqual(add(0,0), 0)
 
      def test_subtract(self):
-         self.assertEqual(sub(12, 5),7)
-         self.assertEqual(sub(-10, -2), -8)
-         self.assertEqual(sub(0, 5), -5)
+        self.assertEqual(sub(12, 5),7)
+        self.assertEqual(sub(-10, -2), -8)
+        self.assertEqual(sub(0, 5), -5)
 
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
@@ -49,7 +49,7 @@ class TestCalculator(unittest.TestCase):
          self.assertEqual(log(2, 16), 4)
 
     def test_log_invalid_base(self):
-        with self.assertRaises(ValueError):
+         with self.assertRaises(ValueError):
             log(0, 3)
 
 # Do not touch this
