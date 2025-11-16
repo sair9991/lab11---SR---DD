@@ -10,9 +10,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(0, 100), 0)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(divide(6, 2) 3)
+        self.assertEqual(divide(6, 2), 3)
         self.assertEqual(divide(-9, 3), -3)
-        self.assertEqual(divide(10, 2) 5)
+        self.assertEqual(divide(10, 2), 5)
 
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
