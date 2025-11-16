@@ -1,9 +1,5 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
+https://github.com/sair9991/lab11---SR---DD.git
 
-One function per operation, in order.
-"""
 import math
 
 def square_root(a):
